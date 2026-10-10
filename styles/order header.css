@@ -1,0 +1,51 @@
+.picc{
+  width: 133px;
+  border-radius: 5px;
+}
+
+.header{
+  background-color: rgba(214, 214, 214, 1);
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  position: fixed;
+  left:0;
+  right: 0;
+  top: 0;
+}
+.middle{
+  display: flex;
+  align-items: center;
+  display: flex;
+  width: 460px;
+}
+.left{
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  width: 100px;
+}
+.input{
+  padding : 12px 4px;
+  border-width: 1px;
+border-color: rgba(214, 214, 214, 1);
+background-color: ghostwhite;
+  border-style: solid;
+  border-right: none;
+  width: 0;
+  border-radius: 5px;
+   display: flex;
+   flex:1;
+}
+.butt{
+  width: 42px;
+  border-style: solid;
+  border: none;
+  border-color: rgba(214, 214, 214, 1);
+  border-radius: 5px;
+  margin-left: -43px;
+  
+}
+.icon{
+  margin-top: 4px;
+}

@@ -1,0 +1,84 @@
+body{
+  font-family: Roboto;
+  padding-top: 90px;
+}
+
+.title{
+  background-color: rgba(221, 221, 221, 0.88);
+   display: flex;
+  justify-content: space-between; 
+  
+}
+.total{
+  display:flex;
+  flex-direction: column;
+}
+.id{
+  
+  display:flex;
+  flex-direction: column;
+}
+
+.pic{
+  width: 90px;
+}
+.date{
+  display:flex;
+  flex-direction: column;
+}
+.products{
+   border-style: solid;
+   padding-top: 0;
+   border-radius: 4px;
+   border-color: rgba( 0,0,0,0.35);
+   border-width: 1px;
+}
+.product-container{
+   padding-left: 5px;
+   border-style: solid;
+  border-width: 1px;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  border-color: rgba( 0,0,0,0.14);
+   margin-bottom: 10px;
+   padding-top: 4px;
+}
+.grid{
+  display: grid;
+  grid-template-columns: 95px 157px ;
+}
+.info{
+  line-height: 21px;
+  font-size: 14px;
+}
+.name{
+  font-weight: 500;
+}
+.but{
+  background-color: blue;
+  color: whitesmoke;
+  border:none;
+  padding: 4px;
+  border-radius: 5px;
+  font-size: 13px;
+  font-weight: 500;
+  margin-top: 3px;
+}
+.button{
+  display: flex;
+  justify-content: center;
+}
+.track{
+  margin: 7px 1px;
+  padding: 6px 13px;
+  background-color: white; 
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba( 0,0,0,0.18);
+  border-radius: 3px;
+}
+
+.tit{
+  font-weight: 500;
+}

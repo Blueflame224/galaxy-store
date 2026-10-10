@@ -1,0 +1,96 @@
+ body{
+   font-family: Roboto;
+   padding-top: 70px;
+ }
+
+ .grid2{
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  column-gap: 4px;
+ }
+ @media(max-width:500px){
+  .grid2{
+    grid-template-columns: 1fr;
+  }
+ }
+
+.Total-header{
+  text-align: center;
+  font-size: 23px;
+  font-weight: 500;
+}
+.amount{
+  color: deepskyblue;
+}
+
+.products{
+  border-style: solid;
+  padding : 3px;
+  margin-top: 11px;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+}
+.options{
+  display: grid;
+  grid-column: 1 / span 2jee;
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+}
+.time{
+  font-size: 20px;
+  font-weight: 500;
+  color: blue;
+}
+.image{
+  width: 150px;
+  
+}
+.grid{
+  display: grid;
+  grid-template-columns:
+  151px 151px ;
+}
+.info{
+  line-height: 30px;
+  padding-top: 33px;
+}
+.name{
+  font-size: 18px;
+  font-weight: 500;
+}
+.price{
+  color: royalblue;
+  font-weight: 700;
+  font-size: 18px;
+}
+.quantity-div{
+  font-weight: 500;
+}
+
+.update,
+.delete{
+  color: deepskyblue;
+}
+.update,
+.delete{
+  cursor: pointer;
+}
+.update:active{
+  color: darkgray;
+}
+.delete:active{
+  color: dimgray;
+}
+.options{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.quantity-price{
+  margin-left: 20px;
+  color: rgba(26, 26, 26, 0.77);
+}
+.quantity-price2{
+  margin-left: 20px;
+  color: rgba(26, 26, 26, 0.77);
+}

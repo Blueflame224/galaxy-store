@@ -1,0 +1,45 @@
+body{
+   font-family:'Roboto'; 
+  background-color: rgb(61, 61, 61);
+}
+.line{
+  border-style: solid;
+  width: 1000px;
+  border-width: 1px;
+  display: flex;
+  flex-basis: content;
+}
+.pic-container{
+  width:500px
+}
+.pic{
+  width: 100%;
+}
+.intro{
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(195, 217, 235);
+  margin-top: 12px;
+}
+.theme{
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  margin-top: 3px;
+  font-weight: 700;
+}
+
+#next-but{
+  padding: 12px 42px;
+  color: white;
+  background-color: blue;
+  border-width: 2px;
+  border-style: solid; border-radius: 22em;
+  border-color: rgb(61, 61, 61);
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: border 0.77s;
+}
+#next-but:hover{
+  border-color: aqua;
+}

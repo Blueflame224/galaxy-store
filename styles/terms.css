@@ -1,0 +1,46 @@
+body{
+  font-family: Arial;
+  background-color: rgb(61, 61, 61);
+}
+.line{
+  border-style: solid;
+  width: 1000px;
+  border-width: 1px;
+  display: flex;
+  flex-basis: content;
+}
+.pic-container{
+  width:500px;
+}
+.pic{
+  width: 100%;
+}
+.terms{
+  color: white;
+  font-size: 19px;
+  font-weight: 500;
+}
+.terms span{
+  color: deepskyblue;
+  cursor: pointer;
+}
+.next-but{
+  padding: 12px 42px;
+  color: white;
+  background-color: blue;
+  border-width: 2px;
+  border-style: solid; border-radius: 22em;
+  border-color: rgb(61, 61, 61);
+  font-weight: 500;
+  font-size: 19px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: border 0.77s ease;
+}
+.next-but:hover{
+  border-color: aqua;
+  padding: 13px 43px ;
+}
+INPUT{
+  cursor: pointer;
+}

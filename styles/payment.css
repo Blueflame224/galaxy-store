@@ -1,0 +1,53 @@
+.summary-title{
+  font-weight: 700;
+  margin-right: 45px;
+  font-size: 20px;
+  color: mediumblue;
+  text-decoration: underline;
+}
+.payment{
+  border-style: solid;
+  margin-top: 13px;
+  padding : 10px;
+  border-width: 1px;
+  border-color: rgb(214, 214, 214);
+  height: 280px;
+}
+.total-tax,
+.shipping-cost,
+.total-item{
+  display: flex;
+  justify-content: space-between;
+  line-height: 23px;
+  font-weight: 500;
+}
+.order-title{
+  color: royalblue;
+  font-weight: 700;
+  font-size: 19px;
+  display: flex;
+  justify-content: space-between ;
+}
+.total{
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.56);
+  border-right: none;
+  border-left: none;
+  border-bottom: none;
+  border-width: 0.34px;
+  padding-top: 10px;
+  margin-top: 12px;
+}
+.place-order{
+  background-color: blue;
+  color: whitesmoke;
+  border: none;
+  margin-top: 24px;
+  padding-right: 95px;
+  padding-left: 95px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+}
